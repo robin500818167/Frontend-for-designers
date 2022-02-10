@@ -14,10 +14,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">Animatable CSS properties</a>
-  2. <a href="https://www.sliderrevolution.com/resources/css-text-animation/">Great CSS Text Animation</a>
-  3. <a href="https://freefrontend.com/css-water-effects/">12 CSS Water Effects</a>
-  4. <a href="https://animate.style/">Animate.css</a>
+  1. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties" target="_blank">Animatable CSS properties</a>
+  2. <a href="https://www.sliderrevolution.com/resources/css-text-animation/" target="_blank">Great CSS Text Animation</a>
+  3. <a href="https://freefrontend.com/css-water-effects/" target="_blank">12 CSS Water Effects</a>
+  4. <a href="https://animate.style/" target="_blank">Animate.css</a>
 
 
 
