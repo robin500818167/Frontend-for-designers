@@ -14,9 +14,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Bronnenlijst
-  1. -bron 1-
-  2. -bron 2-
-  3. -...-
+  1. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">Animatable CSS properties</a>
+  2. <a href="https://www.sliderrevolution.com/resources/css-text-animation/">Great CSS Text Animation</a>
+  3. <a href="https://freefrontend.com/css-water-effects/">12 CSS Water Effects</a>
+  4. <a href="https://animate.style/">Animate.css</a>
 
 
 
@@ -32,10 +33,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - CSS beheers ik al vrij aardig ik heb alleen niet eerder echt gewerkt met animeren dat zou ik graag willen leren
+  - Hoe je animeert in een soort van filmpje. Hiermee bedoel ik dat er een begin is en een eind en je voort kan borduren op eerdere animaties
+  - Mezelf uitdagen om meerdere animaties te gebruiken (heb het wel opgedeeld in delen mocht het niet lukken dat ik dan nog wel wat heb staan)
  
 </details>
 
