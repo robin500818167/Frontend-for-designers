@@ -5,8 +5,8 @@
 /*********/
 @font-face {
 	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
+	src: url('../fonts/Sugo-Pro-Display-Light-trial.woff2') format('woff2'),
+			 url('../fonts/Sugo-Pro-Display-Light-trial.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
@@ -34,11 +34,18 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+@media (prefers-color-scheme: dark) {
 :root {
 	/* startje */
-	--color-main:#111;
-	--color-background:#eee;
-}
+	--color-main:#fff;
+	--color-background:#FE5638;
+}}
+@media (prefers-color-scheme: light) {
+:root {
+	/* startje */
+	--color-main:#FE5638;
+	--color-background:#672f8d;
+}}
 
 
 
@@ -51,6 +58,12 @@ body {
   font-family:eenfont, sans-serif;
   color:var(--color-main);
   background-color:var(--color-background);
+}
+.airup {
+position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
 }
 
 /* jouw code */
