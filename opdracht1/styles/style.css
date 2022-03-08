@@ -270,3 +270,88 @@ span:nth-child(5) {
 		left: 120px;
 	}
 }
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	span:nth-child(4) {
+		left: 251px;
+	}
+	span:nth-child(5) {
+		left: 341px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	.airup{
+		top: 0%;;
+	}
+	span:nth-child(4) {
+		left: 413px;
+	}
+	span:nth-child(5) {
+		left: 503px;
+	}
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	body{
+		font-size: 160px;
+	}
+	span:nth-child(4) {
+		left: 233px;
+		top: 146px;
+	}
+	span:nth-child(5) {
+		left: 322px;
+		top: 146px;;
+	}
+	.airup{
+		top: 36%;
+		left: 36%;
+	}
+	h1::after {
+		top: 145px;
+		left: 120px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+	body{
+		font-size: 160px;
+	}
+	span:nth-child(4) {
+		left: 378px;
+		top: 146px;
+	}
+	span:nth-child(5) {
+		left: 468px;
+		top: 146px;;
+	}
+	.airup{
+		top: -12%;
+		left: 39%;
+	}
+	h1::after {
+		top: 145px;
+		left: 120px;
+	}
+}
