@@ -60,7 +60,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Ik heb heel lang naar deze fout gekeken. Uit eindelijk bleek mijn width op mijn h1 te krap te zijn. Ook had de before een soort schaduw (Dit is ook wel te zien om de tekst heen) die heel gek stond en dus ook verdween doormiddel van de animatie. Dit bleek een text-shadow te zijn die ik per ongeluk op de body gezet had in plaats van op de h1.
 
-  <img src="opdracht1/images/fout-width.jpeg" width="375px" alt="bummer">
+  <img src="opdracht1/images/" width="375px" alt="bummer">
 </details>
 
 
