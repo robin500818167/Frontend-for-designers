@@ -48,19 +48,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitomst opdracht 1">
+  <img src="opdracht1/images/result.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Om de tekst vol te laten lopen heb ik geleerd met een before en after te werken. Zoals hier te zien is probeerde ik eerst alles in alleen een before te doen maar omddat ik 'up' apart moest stijlen om de positie te veranderen heb ik ook gebruik gemaakt van een after. Daarnaast was het werken met hiermee nieuw en ook content had ik nog niet eerder gebruikt of gezien.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="opdracht1/images/fout-before-after.PNG" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Ik heb heel lang naar deze fout gekeken. Uit eindelijk bleek mijn width op mijn h1 te krap te zijn. Ook had de before een soort schaduw (geen plaatje meer van sorry) die heel gek stond en dus ook verdween doormiddel van de animatie. Dit bleek een text-shadow te zijn die ik per ongeluk op de body gezet had in plaats van op de h1.
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  <img src="opdracht1/images/fout-width.jpeg" width="375px" alt="bummer">
 </details>
 
 
