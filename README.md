@@ -23,7 +23,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 1 plan
 
-<details open>
+<details>
   <summary>uitwerken na schetsen idee (voor week 2)</summary>
 
 
@@ -67,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 2 plan
 
-<details>
+<details open>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
    ### Plan: 
   Ik wil graag de use case bingo uitwerken. Ik heb nagedacht over welke twee bedieningen ik wil gebruiken en dat is muis(klikken) en stem gebruik van de cijfers.     Om dicht te blijven bij het originele spel is stem gebruik denk ik de meest logische stap.
