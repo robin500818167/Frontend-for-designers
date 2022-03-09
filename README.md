@@ -69,7 +69,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
-
+  Ik wil graag de use case bingo uitwerken. Ik heb nagedacht over welke twee bedieningen ik wil gebruiken en dat is muis(klikken) en stem gebruik van de cijfers.     Om dicht te blijven bij het originele spel is stem gebruik denk ik de meest logische stap.
+  
+  Ik ben er nog niet uit wat ik wil doen met sorteren/filteren/zoeken/opslaan.
+  
+  De bingo ballen wil ik bovenin random spawnen en dat je dan op je eigen kaart (die overigens ook random is) kan aanklikken dit moet dan of ouderweds een vice       zijn of modern een stempelpen. Het moet ook mogelijk zijn om een verkeerde cijfer weg te stemeplen en hierdoor krijg je dus een valse bingo!
 
   ### Je ontwerp:
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
@@ -77,10 +81,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Sowieso mijn Javascript kennis ophalen en verbeteren want ik blijf dat erg moeilijk vinden.
+  - Ik gok werken met een soort sessie om op te slaan welke random ballen er gegenereerd zijn om later te checken of het een goede of valse bingo is.
+  - Misschien een switch tussen modern en oude bingo (betreft manier van wegstempelen).
 </details>
 
 
