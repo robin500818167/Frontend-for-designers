@@ -69,6 +69,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
+   ### Plan: 
   Ik wil graag de use case bingo uitwerken. Ik heb nagedacht over welke twee bedieningen ik wil gebruiken en dat is muis(klikken) en stem gebruik van de cijfers.     Om dicht te blijven bij het originele spel is stem gebruik denk ik de meest logische stap.
   
   Ik ben er nog niet uit wat ik wil doen met sorteren/filteren/zoeken/opslaan.
