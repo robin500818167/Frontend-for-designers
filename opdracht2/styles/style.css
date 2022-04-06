@@ -34,11 +34,17 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-main:#111;
-	--color-background:#eee;
-}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-main:#eee;
+		--color-background:#111;
+		--color-cart:#cda434;
+	}}
+	@media (prefers-color-scheme: light) {
+	:root {
+		--color-main:#111;
+		--color-background:#eee;
+	}}
 
 
 
@@ -48,10 +54,29 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 body {
+   display: flex;
+   justify-content: center;
+   font-size: clamp(1rem, -0.875rem + 8.333333vw, 3rem);
   font-family:eenfont, sans-serif;
   color:var(--color-main);
   background-color:var(--color-background);
 }
 
 /* jouw code */
-
+table {
+	background-color: var(--color-cart);
+	border-radius: 1em;
+	padding: 0.5em;
+	margin-top: 1em;
+}
+tr{
+	background-color:var(--color-background);
+}
+th {
+	color:var(--color-background);
+	background-color:var(--color-cart);
+}
+td {
+	text-align: center;
+	padding: 1em;
+}
