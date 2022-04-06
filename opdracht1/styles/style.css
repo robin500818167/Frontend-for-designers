@@ -46,34 +46,32 @@ body {
 	font-family:eenfont, sans-serif;
 	color:var(--color-main);
 	background-color:var(--color-background);
-	font-size: 200px;
+	font-size: clamp(6rem, -0.875rem + 8.333333vw, 20rem);
 	background-image: url(../images/rain.png);
 	animation: rain 1s linear infinite reverse;
 }
-.airup {
+section {
 	text-align: center;
 	position: fixed;
 	left: 45%;
-	top: 35%;
+	top: 65%;
 	transform: translate(-50%, -50%);
 	height: 100vh;
-	
 }
 h1 {
-	height: 100vh;
-	width: 100vw;
-	letter-spacing: -25px;
+	margin: 0;
+	letter-spacing: -0.06em;
 	transform: rotate(-10deg);
 	animation: bounceInDown 3s;
-	text-shadow: 0px 1px var(--color-shadow), 0 0 1em var(--color-shadow);
+	text-shadow: 0em 0.0625em var(--color-shadow), 0 0 1em var(--color-shadow);
 }
-h1::before {
+.up {
+	margin-top: -0.6em;
+	margin-right: -167%;
+}
+h1:nth-child(1)::before {
 	content: "a i r ";
 	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
 	color:var(--color-background);
 	text-shadow: none;
 	overflow: hidden;
@@ -82,11 +80,11 @@ h1::before {
 	animation-fill-mode: forwards;
 	animation-delay: 4s;
 }
-h1::after {
+h1:nth-child(2)::before {
 	content: " u p";
 	position: absolute;
-	top: 174px;
-	left: 172.5px;
+	top: 0em;
+	left: 0em;
 	bottom: 0;
 	right: 0;
 	color:var(--color-background);
@@ -96,16 +94,6 @@ h1::after {
 	animation: fill 4s;
 	animation-fill-mode: forwards;
 	animation-delay: 4s;
-}
-span:nth-child(4) {
-	position: absolute;
-	left: 875px;
-	top: 174px;
-}
-span:nth-child(5) {
-	position: absolute;
-	left: 1000px;
-	top: 174px;
 }
 /**************/
 /* KEYFRAMES */
@@ -129,229 +117,26 @@ span:nth-child(5) {
 @keyframes bounceInDown {
 	0% {
 	   opacity: 0;
-	   transform: translateY(-2000px);
+	   transform: translateY(-125em);
 	}
 	40% {
 	   opacity: 1;
-	   transform: translateY(30px);
+	   transform: translateY(1.875em);
 	}
 	80% {
-	   transform: translateY(-10px);
+	   transform: translateY(-0.625em);
 	}
 	100% {
 	   transform: translateY(0);
 	}
  }
-
  /**************/
-/* MEDIA QUERIES */
+/* MEDIAQUERY */
 /**************/
-
-/* ----------- iPad Pro 12.9" ----------- */
-
-/* Landscape */
 @media only screen 
-  and (min-device-width: 1366px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-	span:nth-child(4) {
-		left: 752px;
-	}
-	span:nth-child(5) {
-		left: 877px;
-	}
-	.airup{
-		top: 45%;
-	}
-}
-/* Portrait */
-
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-	span:nth-child(4) {
-		left: 580px;
-	}
-	span:nth-child(5) {
-		left: 705px;
-	}
-	.airup{
-		top: 60%;
-	}
-}
-/* ----------- iPad 1, 2, Mini and Air ----------- */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-	span:nth-child(4) {
-		left: 453px;
-	}
-	span:nth-child(5) {
-		left: 577px;
-	}
-	.airup{
-		top: 50%;
-	}
-}
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-	span:nth-child(4) {
-		left: 580px;
-	}
-	span:nth-child(5) {
-		left: 705px;
-	}
-	.airup{
-		top: 35%;
-	}
-}
-/* ----------- iPhone X ----------- */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-	body{
-		font-size: 160px;
-	}
-	span:nth-child(4) {
-		left: 232px;
-		top: 146px;
-	}
-	span:nth-child(5) {
-		left: 322px;
-		top: 146px;;
-	}
-	.airup{
-		top: 45%;
-		left: 39%;
-	}
-	h1::after {
-		top: 145px;
-		left: 120px;
-	}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-	body{
-		font-size: 160px;
-	}
-	span:nth-child(4) {
-		left: 450px;
-		top: 146px;
-	}
-	span:nth-child(5) {
-		left: 540px;
-		top: 146px;;
-	}
-	.airup{
-		top: -12%;
-		left: 39%;
-	}
-	h1::after {
-		top: 145px;
-		left: 120px;
-	}
-}
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-	span:nth-child(4) {
-		left: 251px;
-	}
-	span:nth-child(5) {
-		left: 341px;
-	}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-	.airup{
-		top: 0%;;
-	}
-	span:nth-child(4) {
-		left: 413px;
-	}
-	span:nth-child(5) {
-		left: 503px;
-	}
-}
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-	body{
-		font-size: 160px;
-	}
-	span:nth-child(4) {
-		left: 233px;
-		top: 146px;
-	}
-	span:nth-child(5) {
-		left: 322px;
-		top: 146px;;
-	}
-	.airup{
-		top: 36%;
-		left: 36%;
-	}
-	h1::after {
-		top: 145px;
-		left: 120px;
-	}
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-	body{
-		font-size: 160px;
-	}
-	span:nth-child(4) {
-		left: 378px;
-		top: 146px;
-	}
-	span:nth-child(5) {
-		left: 468px;
-		top: 146px;;
-	}
-	.airup{
-		top: -12%;
-		left: 39%;
-	}
-	h1::after {
-		top: 145px;
-		left: 120px;
+  { 
+	section {
+		left: 33%;
 	}
 }
