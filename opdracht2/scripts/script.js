@@ -1,10 +1,19 @@
+var checkBox = document.getElementById("myCheck");
 
-var tbody = document.querySelector('#table tbody');
-var color = "white";
-tbody.addEventListener('click', function (e) {
-  var cell = e.target.closest('td');
-  color = cell.style.color = color === "red" ? "white" :  "red";
-});
+function forgiveness() {
+var selector = document.querySelectorAll('td input');
+  if (checkBox.checked == true){
+    for (var i = 0; i < selector.length; i++) {
+     selector[i].setAttribute('type', 'radio');
+    }
+  } else {
+    for (var i = 0; i < selector.length; i++) {
+      selector[i].setAttribute('type', 'checkbox');
+     }
+  }
+}
+forgiveness();
+checkBox.addEventListener("change", forgiveness);
   
 
 
