@@ -67,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 2 plan
 
-<details open>
+<details>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
   
    ### Plan: 
@@ -93,41 +93,48 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Opdracht 2 test
 
-<details>
+<details open>
   <summary>uitwerken na testen (week 6/7)</summary>
 
   Neem minimaal 5 bevindingen op:
 
   ### Bevinding 1:
   De cijfers kregen een andere kleur in plaats van dat er echt een fiche of een stempel op kwam. 
+  (ik heb hier geen screenshot van gemaakt voordat het was opgelost)
 
   #### oplossing:
   Dit heb ik hierna aangepast in een rode cirkel (dit omdat dat voor zowel een stempel als een fiche kan)
+   <img src="readme-images/fiche.png" alt="oplossing 1">
 
   ### Bevinding 2:
   Ik had nog geen switch om te kunnen wisselen tussen het oude en nieuwe spel. Hierdoor was het stukje forgiveness ook niet aanwezig.
 
   #### oplossing:
   Ik heb bovenin een switch geplaatst zodat de gebruiker zelf kan kiezen of ze hun gemaakte fouten nog kunnen herstellen.
+   <img src="readme-images/switch.png" alt="oplossing 2">
   
   ### Bevinding 3:
   Ik heb de kaart gemaakt op mobile first hierdoor was de responsive voor groot scherm nog niet helemaal op orde
+   <img src="readme-images/responsive/light-mode-oud.png" alt="bevinding 3">
 
   #### oplossing:
-  !!!
+  Blijkbaar had ik nog een aantal px'jes in plaats van alles in em. (Moet daar toch nog aan wennen 😉 ). Daarnaast was mijn clamp wel heel erg groot en de   width van de kaart. Dit heb ik beide minder gemaakt waardoor de kaart een stuk kleiner is en overzichtelijk in 1x. 
+   <img src="readme-images/bingokaart.png" alt="oplossing 3">
   
    ### Bevinding 4:
   Ik werk zelf altijd in darkmode dus qua kleuren was die in orde maar vervolgens switchde ik naar light mode en bleek er helemaal geen kleur aanwezig te   zijn dit moest dus nog opgelost worden.
+   <img src="readme-images/responsive/light-mode-oud.png" alt="bevinding 4">
 
   #### oplossing:
   ik heb kleuren toegevoegd aan de light mode
-  </details>
+   <img src="readme-images/bingokaart.png" alt="oplossing 4">
 
   ### Bevinding 5:
-  Naast dat er nog tegen de applicatie gesproken moet kunnen worden is het ook de bedoeling dat je met toetsenbord kan bedienen. 
+  Naast dat er nog tegen de applicatie gesproken moet kunnen worden is het ook de bedoeling dat je met toetsenbord kan bedienen.
 
   #### oplossing:
   Om dit visueel te maken heb ik een focus toe gevoegd. Hierdoor zie je ook als iets geselecteerd is met je toetsenbord.
+   <img src="readme-images/" alt="oplossing 5">
   </details>
 
 
