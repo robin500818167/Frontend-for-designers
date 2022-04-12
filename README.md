@@ -69,12 +69,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details open>
   <summary>uitwerken na schetsen idee (voor week 4)</summary>
+  
    ### Plan: 
-  Ik wil graag de use case bingo uitwerken. Ik heb nagedacht over welke twee bedieningen ik wil gebruiken en dat is muis(klikken) en stem gebruik van de cijfers.     Om dicht te blijven bij het originele spel is stem gebruik denk ik de meest logische stap.
+  
+  Ik wil graag de use case bingo uitwerken. Ik heb nagedacht over welke twee bedieningen ik wil gebruiken en dat is muis(klikken) en stem gebruik zodat er bingo geroepen kan worden. Om dicht te blijven bij het originele spel is stem gebruik denk ik de meest logische stap.
   
   Ik ben er nog niet uit wat ik wil doen met sorteren/filteren/zoeken/opslaan.
   
-  De bingo ballen wil ik bovenin random spawnen en dat je dan op je eigen kaart (die overigens ook random is) kan aanklikken dit moet dan of ouderweds een vice       zijn of modern een stempelpen. Het moet ook mogelijk zijn om een verkeerde cijfer weg te stemeplen en hierdoor krijg je dus een valse bingo!
+ Je kunt op je eigen kaart de getallen aanklikken dit moet dan of ouderweds een fiche zijn of modern stempelpen. Het moet ook mogelijk zijn om een verkeerde cijfer weg te stemeplen en hierdoor krijg je dus een valse bingo (buiten scope)!
 
   ### Je ontwerp:
   <img src="readme-images/dummy-plaatje.svg" width="375px" alt="ontwerp opdracht 2">
@@ -83,8 +85,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
   - Sowieso mijn Javascript kennis ophalen en verbeteren want ik blijf dat erg moeilijk vinden.
-  - Ik gok werken met een soort sessie om op te slaan welke random ballen er gegenereerd zijn om later te checken of het een goede of valse bingo is.
   - Misschien een switch tussen modern en oude bingo (betreft manier van wegstempelen).
+  - Ook gebruik van stem heb ik nog nooit mee gewerkt en hier wil ik graag meer van weten.
 </details>
 
 
@@ -96,27 +98,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Neem minimaal 5 bevindingen op:
 
-
-
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De cijfers kregen een andere kleur in plaats van dat er echt een fiche of een stempel op kwam. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  Dit heb ik hierna aangepast in een rode cirkel (dit omdat dat voor zowel een stempel als een fiche kan)
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had nog geen switch om te kunnen wisselen tussen het oude en nieuwe spel. Hierdoor was het stukje forgiveness ook niet aanwezig.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
+  Ik heb bovenin een switch geplaatst zodat de gebruiker zelf kan kiezen of ze hun gemaakte fouten nog kunnen herstellen.
+  
   ### Bevinding 3:
-  ...
-</details>
+  Ik heb de kaart gemaakt op mobile first hierdoor was de responsive voor groot scherm nog niet helemaal op orde
+
+  #### oplossing:
+  !!!
+  
+   ### Bevinding 4:
+  Ik werk zelf altijd in darkmode dus qua kleuren was die in orde maar vervolgens switchde ik naar light mode en bleek er helemaal geen kleur aanwezig te   zijn dit moest dus nog opgelost worden.
+
+  #### oplossing:
+  ik heb kleuren toegevoegd aan de light mode
+  </details>
+
+  ### Bevinding 5:
+  Naast dat er nog tegen de applicatie gesproken moet kunnen worden is het ook de bedoeling dat je met toetsenbord kan bedienen. 
+
+  #### oplossing:
+  Om dit visueel te maken heb ik een focus toe gevoegd. Hierdoor zie je ook als iets geselecteerd is met je toetsenbord.
+  </details>
 
 
 
