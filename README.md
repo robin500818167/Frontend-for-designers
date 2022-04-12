@@ -130,11 +130,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    <img src="readme-images/bingokaart.png" alt="oplossing 4">
 
   ### Bevinding 5:
-  Naast dat er nog tegen de applicatie gesproken moet kunnen worden is het ook de bedoeling dat je met toetsenbord kan bedienen.
+  De applicatie moet nog op andere manieren te bedienen zijn.
 
   #### oplossing:
-  Om dit visueel te maken heb ik een focus toe gevoegd. Hierdoor zie je ook als iets geselecteerd is met je toetsenbord.
-   <img src="readme-images/" alt="oplossing 5">
+  Ik heb gekozen voor toetsenbord en spraak. Hierbij typ je b in of zeg je bingo en je kaart geeft aan dat er een bingo is.
+  <img src="readme-images/bingo.png" alt="oplossing 5">
   </details>
 
 
