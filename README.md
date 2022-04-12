@@ -115,7 +115,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   ### Bevinding 3:
   Ik heb de kaart gemaakt op mobile first hierdoor was de responsive voor groot scherm nog niet helemaal op orde
-   <img src="readme-images/responsive/light-mode-oud.png" alt="bevinding 3">
+   <img src="readme-images/responsive-light-mode-oud.png" alt="bevinding 3">
 
   #### oplossing:
   Blijkbaar had ik nog een aantal px'jes in plaats van alles in em. (Moet daar toch nog aan wennen 😉 ). Daarnaast was mijn clamp wel heel erg groot en de   width van de kaart. Dit heb ik beide minder gemaakt waardoor de kaart een stuk kleiner is en overzichtelijk in 1x. 
@@ -123,7 +123,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
    ### Bevinding 4:
   Ik werk zelf altijd in darkmode dus qua kleuren was die in orde maar vervolgens switchde ik naar light mode en bleek er helemaal geen kleur aanwezig te   zijn dit moest dus nog opgelost worden.
-   <img src="readme-images/responsive/light-mode-oud.png" alt="bevinding 4">
+   <img src="readme-images/responsive-light-mode-oud.png" alt="bevinding 4">
 
   #### oplossing:
   ik heb kleuren toegevoegd aan de light mode
