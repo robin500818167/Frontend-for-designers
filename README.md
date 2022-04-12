@@ -145,17 +145,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken bij afronden opdracht (voor week 8)</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="uitkomst opdracht 2">
+  <img src="readme-images/resultaat.png" alt="uitkomst opdracht 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik vond het interessant om te werken met andere soorten bedieningen. Ik vond het overall wel een leuke opdracht en als ik meer tijd had had ik die er graag in gestoken. Heb veel geleerd van de mogelijkheden met css. Was zelf snel geneigd om het al op te gaan lossen met Javascript en heb geleerd wat er al wel niet met css zelf kan. Leerzaam en leuk vak!
 
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="top">
+  <img src="readme-images/bingo.png" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.svg" width="375px" alt="bummer">
+  Ik had nog een aantal dingen buiten de scoop ook zoals: Het genereren van een random kaartje. eventueel bingo ballen die in sliden zodat je het echt speelt. checken of je een goede of valse bingo had. Hier was geen tijd voor.
 </details>
