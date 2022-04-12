@@ -49,19 +49,26 @@ button, summary {
 	:root {
 		--color-main:#111;
 		--color-background:#eee;
+		--color-cart:#cda434;
 	}}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 body {
-   display: flex;
-   justify-content: space-around;
-   flex-direction: column;
-   font-size: clamp(1rem, -0.875rem + 8.333333vw, 3rem);
+	text-align: center;
+	position: fixed;
+	left: 48%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	height: 100vh;
+   font-size: clamp(1rem, -0.875rem + 8.333333vw, 2rem);
   font-family: sans-serif;
   color:var(--color-main);
   background-color:var(--color-background);
+}
+.cart {
+	flex-direction: column;
 }
 section{
 	margin-top: 1em;
@@ -148,10 +155,10 @@ input{
 	border-radius: 50%;
 	position: absolute;
 	content: "";
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
+	width: 1.7em;
+	aspect-ratio:1/1;
+	left: 0.3em;
+	bottom: 0.3em;
 	background-color: var(--color-main);
 	-webkit-transition: .4s;
 	transition: .4s;
@@ -160,18 +167,7 @@ input{
 
   
   input:checked + .slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-	border-radius: 34px;
-  }
-  
-  .slider.round:before {
-	border-radius: 50%;
+	transform: translateX(1.7em);
   }
 
 @media only screen 
